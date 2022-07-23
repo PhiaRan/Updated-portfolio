@@ -10,6 +10,7 @@
 
 #navbar{
   position: sticky;
+  display: flex;
 }
 .navbar-brand {
     color: white;
@@ -78,6 +79,7 @@ footer {
 .card-title{
 
     margin-bottom: 2%;
+    margin-top: 2%;
 }
 
 .card {
@@ -119,15 +121,20 @@ text-align: center;
 }
 
 
+.row{
+
+}
+
 .hero{  
   display: flex;
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
-  height: 700px;
-  width: 1540px;
+  width: 100vw;
+  height: 100vh;
   background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/372960/pexels-photo-372960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  
 
 }
 
