@@ -59,6 +59,7 @@ footer {
     padding-right: 3%;
     padding-left: 2%;
    border-radius: 10px;
+   
   
 }
 
@@ -133,7 +134,7 @@ text-align: center;
   position: relative;
   width: 100vw;
   height: 100vh;
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://images.pexels.com/photos/372960/pexels-photo-372960.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://i.pinimg.com/originals/53/b5/61/53b5617eb50da7af6e10927cf0a6f3ae.jpg");
   
 
 }
