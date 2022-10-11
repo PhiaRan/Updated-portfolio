@@ -33,12 +33,21 @@ font-size: 40px;
 
 
 .nav-link {
+ display: flex;
+  align-items:flex-end;
     color: white;
+    justify-content: flex-end;
+    
+}
+
+
+.nav-link2{
+  color: white;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: white;
-    margin-left: 350px;
+  float: right;
 }
 
 footer {
