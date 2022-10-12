@@ -50,6 +50,40 @@ font-size: 40px;
   float: right;
 }
 
+
+.navbar-expand-lg .navbar-collapse{
+  min-width: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .hamburger {
+    display: block;
+    
+  }
+
+  .mobileHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list {
+    grid-auto-flow: row;
+    list-style-type: none;
+    row-gap: 40px;
+    column-gap: 0;
+    justify-items: center;
+  }
+
+  .menu {
+    display: none;
+ }
+}
+
 footer {
     color: white;
     text-align: center;

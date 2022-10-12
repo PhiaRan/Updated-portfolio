@@ -19,8 +19,8 @@
 <body>
 
 
-    <nav class="navbar navbar-expand-lg bg-light">
-      <div class="container-fluid">
+    <nav id='menu' class=" navbar navbar-expand-lg bg-light">
+      <div id='menu' class="container-fluid">
         
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -28,7 +28,7 @@
         <div class="collapse navbar-collapse" id="navbarNav">
           <ul class="navbar-nav">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#skills">Skills</a>
+              <a class="nav-link" href="#skills">Skills</a>
             </li>
             <li class="nav-item">
               <a class="nav-link" href="resume.html">Resume</a>
@@ -36,13 +36,25 @@
             <li class="nav-item">
               <a class="nav-link"  href="#about1">About</a>
             </li>
+            <li class="nav-item">
+              <a class="nav-link"  href="#projects">Projects</a>
+            </li>
             
           </ul>
         </div>
       </div>
+
+      <div class="mobileHeader">
+        <button class="hamburger">Menu</button>
+      </div>
+     
     </nav>
 
-    
+
+  
+
+
+
     <div class="hero">
       <div class="hero-text">
         <h1>Sophia Rankin</h1>
@@ -75,22 +87,22 @@
           </div>
       </div>
   </div>
-<hr id="hr1">
+<hr id="projects" id="hr1">
   <div >
-    <div class="row">
+    <div id="projects" class="row">
         <div  id="work1" class="col-md-12">
             <h1 id="portTitle">My Work</h1>
         </div>
 
         <div class="row">
 
-<section class="container">
+<section   class="container">
             <div>
                 <div >
                     <img id="workimg" src="https://user-images.githubusercontent.com/26229422/177867007-6a92754a-900f-4acf-b099-2125dc8b8f9f.png"  style="width: 75%;" class="img img-thumbnail" alt="screenshot of Wine Key">
                     <div class="card-body">
                         <h4 class="card-title">Waste Not</h4>
-                        <p class="card-text port-card">Waste-Not-Recipe-Finder is a collabrative project where me and three other class mates made a website
+                        <p class="card-text port-card">Waste-Not-Recipe-Finder is a collabrative project between three classmates and myself. This is a website
                           where you can enter the items you have in your kitchen, enter any allergies or diet restrictions and in return you will be given back a 
                           recipe which you can save and add to your profile.
                         </p>
@@ -127,6 +139,21 @@
                 </div>
             </div>
 
+            <div >
+              <div>
+                  <img id="workimg"src="https://lh3.googleusercontent.com/t4TQoNG8YiTGOwukqoY1na-rt9iAPv5Qc05I9_3ikkp3YkNxmY3wF-4PlUs_LfiYswzOWJFc-2edO12W6HQ8Ew6vbTPzoeJcSsv7sng89W5gGX91kVAvFtNtNZKvmtwNwdGqkZQ4eB4=w2400"   style="width: 75%;" class="img img-thumbnail"
+                      alt="screenshot of Covidosity website">
+                  <div class="card-body">
+                      <h4 class="card-title">Regex</h4>
+                      <p class="card-text port-card">This is a regex tutorial explaining in depth about a regex that validates emails.</p>
+                      <a href="https://gist.github.com/PhiaRan/6e4518620a296c7f415955248df686ba" target="_blank"
+                          class="btn btn-dark">Visit Email Regex</a>
+                  </div>
+              </div>
+
+          </div>
+
+          <hr>
           
                     </div>
                 </div>
@@ -147,6 +174,7 @@
                 <div class="skill-icon"><i class="fab fa-react"></i>React.js</div>
                 <div class="skill-icon"><i class="fas fa-search"></i>jQuery</div>
                 <div class="skill-icon"><i class="fab fa-bootstrap"></i>Bootstrap</div>
+                
                 
               </div>
             </div>
