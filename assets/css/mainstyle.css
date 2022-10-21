@@ -33,12 +33,55 @@ font-size: 40px;
 
 
 .nav-link {
+ display: flex;
+  align-items:flex-end;
     color: white;
+    justify-content: flex-end;
+    
+}
+
+
+.nav-link2{
+  color: white;
 }
 
 .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
     color: white;
-    margin-left: 350px;
+  float: right;
+}
+
+
+.navbar-expand-lg .navbar-collapse{
+  min-width: none;
+}
+
+.hamburger {
+  display: none;
+}
+
+@media screen and (max-width: 800px) {
+  .hamburger {
+    display: block;
+    
+  }
+
+  .mobileHeader {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .list {
+    grid-auto-flow: row;
+    list-style-type: none;
+    row-gap: 40px;
+    column-gap: 0;
+    justify-items: center;
+  }
+
+  .menu {
+    display: none;
+ }
 }
 
 footer {
