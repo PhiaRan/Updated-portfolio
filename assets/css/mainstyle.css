@@ -297,4 +297,11 @@ background-color: #595f66cf;
     text-decoration: underline;
   }
 
-  
+  .collapse:not(.show){
+
+    display: flexbox;
+  }
+
+  .collapse:not(.show){
+    display: flexbox;
+  }
